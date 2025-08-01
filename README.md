@@ -26,23 +26,25 @@ It simulates how a security team can use ServiceNow to automate incident handlin
 ---
 
 ## 🚀 Project Structure
+```plaintext
 /ServiceNow-SecOps-Demo
 │
 ├── README.md
 ├── workflows/
-│ ├── incident_workflow.png
-│ ├── vulnerability_workflow.png
+│   ├── incident_workflow.png
+│   ├── vulnerability_workflow.png
 │
 ├── data/
-│ ├── mock_vulnerabilities.csv
+│   ├── mock_vulnerabilities.csv
 │
 ├── screenshots/
-│ ├── incident_creation.png
-│ ├── vulnerability_dashboard.png
-│ ├── remediation_task.png
+│   ├── incident_creation.png
+│   ├── vulnerability_dashboard.png
+│   ├── remediation_task.png
 │
 └── docs/
-├── business_value.pdf
+    ├── business_value.pdf
+```
 
 
 ---
