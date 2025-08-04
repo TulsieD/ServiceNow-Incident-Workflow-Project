@@ -56,6 +56,11 @@ Simulate incident ingestion and automated workflows for handling security alerts
 ### Steps Implemented
 1. **Mock SIEM Ingestion**
    - Created sample incidents (Phishing, Malware, Brute-force alerts).
+   - Phishing:
+         Created a custom table with phishing-specific fields to isolate incidents, which allows administrators to limit
+         Who has access to phishing alerts, e.g. level 2 analysts and above will have access to the incident in order to perform triage while
+         Level 1 analysts are excluded to help mitigate alert fatigue. Added custom numbering using the number maintenance definition to have a
+         'PHISH' prefix, further visually distinguishing the incidents. 
    - Added custom fields (Alert Source, IP Address, Severity).
    
 2. **Business Rules**
