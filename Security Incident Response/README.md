@@ -27,56 +27,60 @@ flowchart LR
     Containment --> Resolved[Resolved: Add Resolution Notes & Close]
     Resolved --> Report[Generate Audit Log & Notify Reporter]
 ```
-1️⃣ Custom Phishing Incident Table
-Created a dedicated u_phishing_incident table with fields:
+## 🎯 Phishing Incident Response (Custom Module)
 
-Email Sender, Malicious URL, Subject Line
+### 1️⃣ Custom Phishing Incident Table
+Created a dedicated `u_phishing_incident` table with fields:
 
-User Reported, IOCs (Journal Input), Investigation Notes
+- **Email Sender**
+- **Malicious URL**
+- **Subject Line**
+- **User Reported**
+- **IOCs (Journal Input)**
+- **Investigation Notes**
+- **Resolution Notes**
+- **Priority**
+- **State**
+- **Assignment Group** (auto-assigned)
+- **Configuration Item**
 
-Resolution Notes, Priority, State
+#### 🔑 Customizations
+- Custom numbering format: `PHISH001001`
+- Role-based access: Only **Tier 2+ analysts** can view phishing incidents
+- IOC Journal field for investigation tracking
 
-Assignment Group (auto-assigned), Configuration Item
+📷 **Screenshots:** `screenshots/phishing_incident_table.png`
 
-🔑 Customizations
+---
 
-Custom numbering format (PHISH001001)
+### 2️⃣ Automated Assignment (Business Rule)
+- Business Rule assigns phishing incidents to the **Phishing Response Team** based on priority.
+- High-severity phishing alerts are auto-routed to **Tier 2 analysts** for immediate triage.
 
-Role-based access: Only Tier 2+ analysts can view phishing incidents
+📄 **Business Rule Script:** `scripts/auto_assignment.js`  
+📷 **Screenshot:** `screenshots/auto_assignment.png`
 
-IOC Journal field for investigation tracking
+---
 
-📷 Screenshots
-
-
-2️⃣ Automated Assignment (Business Rule)
-Business Rule assigns phishing incidents to the Phishing Response Team based on priority.
-
-High-severity phishing alerts are auto-routed to Tier 2 analysts for immediate triage.
-
-📄 Business Rule Script: scripts/auto_assignment.js
-
-📷 Screenshot
-
-3️⃣ Workflow Automation
+### 3️⃣ Workflow Automation
 Designed a custom workflow in Flow Designer for phishing incidents:
 
-New: Incident created and assigned automatically.
+1. **New:** Incident created and assigned automatically.
+2. **Triage:** Analyst reviews IOCs and validates impact.
+3. **Containment:** Block malicious domains and notify users.
+4. **Resolved:** Add resolution notes and close the incident.
 
-Triage: Analyst reviews IOCs and validates impact.
+- Notifications are triggered at each stage for visibility.
 
-Containment: Block malicious domains, notify users.
+📷 **Workflow Diagram:** `workflows/phishing_workflow.png`
 
-Resolved: Add resolution notes and close the incident.
+---
 
-Notifications: Triggered at each stage for visibility.
-
-📷 Workflow Diagram
-
-4️⃣ SIEM Integration (REST API)
+### 4️⃣ SIEM Integration (REST API)
 Simulated ingestion from SIEM (e.g., Splunk/QRadar) into ServiceNow using REST API:
 
-Example Payload:
+**Example Payload:**
+```json
 {
   "short_description": "Phishing email detected for Abel Tuter",
   "u_email_sender": "checkup@s3rv1cen0w.com",
@@ -84,12 +88,16 @@ Example Payload:
   "priority": "2",
   "u_user_reported": "Abel Tuter"
 }
-5️⃣ Example Case Timeline
-A simulated phishing incident lifecycle with full analyst notes:
-📄 View Timeline: docs/sample_phishing_incident.md
+```
+### 5️⃣ Example Case Timeline  
+A simulated phishing incident lifecycle with full analyst notes.
 
-7️⃣ Key Value
-✅ Automated triage reduces manual effort
-✅ Seamless SIEM → ServiceNow integration
-✅ Clear audit trail for investigations
+📄 **View Timeline:** `docs/sample_phishing_incident.md`
+
+---
+
+### 7️⃣ Key Value  
+✅ Automated triage reduces manual effort  
+✅ Seamless SIEM → ServiceNow integration  
+✅ Clear audit trail for investigations  
 ✅ Realistic SOC simulation for training and demonstration
