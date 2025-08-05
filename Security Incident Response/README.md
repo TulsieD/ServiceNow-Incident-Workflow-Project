@@ -1,4 +1,4 @@
-# ServiceNow SecOps Demo
+# Security Incident Response Demo
 
 A simulation of **Security Incident Response (SIR)** in ServiceNow, demonstrating automated phishing incident ingestion, triage workflows, and SIEM integration for accelerated response.
 
