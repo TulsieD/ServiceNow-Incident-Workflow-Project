@@ -50,6 +50,7 @@ Created a dedicated `u_phishing_incident` table with fields:
 - IOC Journal field for investigation tracking
 
 📷 **Screenshots:** [screenshots/phishing_incident_table.png](https://github.com/TulsieD/ServiceNow-Incident-Workflow-Project/blob/main/Security%20Incident%20Response/screenshots/PhishingIncident.png)
+![Phishing Builder Screenshot](./screenshots/ServiceNow_PhishingBuilder.png)
 
 ---
 
