@@ -46,7 +46,7 @@ Created a dedicated `u_phishing_incident` table with fields:
 
 #### 🔑 Customizations
 - Custom numbering format: `PHISH001001`
-- Role-based access: Only **Tier 2+ analysts** can view phishing incidents
+- Role-based access: Only **Phishing analysts** can view phishing incidents
 - IOC Journal field for investigation tracking
 
 📷 **Screenshots:** `screenshots/phishing_incident_table.png`
