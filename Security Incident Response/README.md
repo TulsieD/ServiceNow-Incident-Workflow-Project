@@ -51,7 +51,7 @@ Created a dedicated `u_phishing_incident` table with fields:
 
 📷 **Screenshots:** 
 ![Phishing Incident Table](./screenshots/phishing_incident_table.png)
-![Phishing Builder Screenshot](./screenshots/ServiceNow_PhishingBuilder.png)
+![Phishing Builder Screenshot](./screenshots/Servicenow_PhishingBuilder.png)
 
 ---
 
