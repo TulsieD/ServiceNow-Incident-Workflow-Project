@@ -76,7 +76,7 @@ Designed a custom workflow in Flow Designer for phishing incidents:
 
 - Notifications are triggered at each stage for visibility.
 
-![Workflow Diagram:](./screenshots/Phishing_Workflow.png)
+![Workflow Diagram:](./screenshots/PhishingWorkflow.png)
 
 
 ---
