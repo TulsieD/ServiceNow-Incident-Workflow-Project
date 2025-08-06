@@ -99,8 +99,8 @@ Simulated ingestion from SIEM (e.g., Splunk/QRadar) into ServiceNow using REST A
 ### 5️⃣ Example Case Timeline  
 A simulated resolved phishing incident with full analyst notes. 
 
-![Investigation Notes](./screenshots/PhsihingIncidentexmaple1.png)
-![Resoluiton Notes](./screenshots/PhsihingIncidentexmaple2.png)
+![Investigation Notes](./screenshots/PhishingIncidentexmaple1.png)
+![Resoluiton Notes](./screenshots/PhishingIncidentexmaple2.png)
 ---
 
 ### 7️⃣ Key Value  
