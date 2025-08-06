@@ -59,7 +59,7 @@ Created a dedicated `u_phishing_incident` table with fields:
 - Business Rule assigns phishing incidents to the **Phishing Response Team** based on priority.
 - High-severity phishing alerts are auto-routed to **Tier 2 analysts** for immediate triage.
 
-![Business Rule Script](./scripts/auto_assign.js) 
+[Business Rule Script](./scripts/auto_assign.js) 
  
 ![Screenshot:](./screenshots/BuisnessRule.png)
 
