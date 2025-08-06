@@ -59,9 +59,9 @@ Created a dedicated `u_phishing_incident` table with fields:
 - Business Rule assigns phishing incidents to the **Phishing Response Team** based on priority.
 - High-severity phishing alerts are auto-routed to **Tier 2 analysts** for immediate triage.
 
-📄 ![**Business Rule Script:**](./scripts/auto_assign.js) 
+![**Business Rule Script:**](./scripts/auto_assign.js) 
  
-📷  ![**Screenshot:**](screenshots/auto_assignment.png)
+![**Screenshot:**](screenshots/auto_assignment.png)
 
 
 ---
@@ -76,7 +76,7 @@ Designed a custom workflow in Flow Designer for phishing incidents:
 
 - Notifications are triggered at each stage for visibility.
 
-📷 ![**Workflow Diagram:** ](./workflows/phishing_workflow.png)
+![**Workflow Diagram:** ](./workflows/phishing_workflow.png)
 
 
 ---
