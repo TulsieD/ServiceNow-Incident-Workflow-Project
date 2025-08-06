@@ -49,7 +49,8 @@ Created a dedicated `u_phishing_incident` table with fields:
 - Role-based access: Only **Phishing analysts** can view phishing incidents
 - IOC Journal field for investigation tracking
 
-📷 **Screenshots:** [screenshots/phishing_incident_table.png](https://github.com/TulsieD/ServiceNow-Incident-Workflow-Project/blob/main/Security%20Incident%20Response/screenshots/PhishingIncident.png)
+📷 **Screenshots:** 
+![Phishing Incident Table](./screenshots/phishing_incident_table.png)
 ![Phishing Builder Screenshot](./screenshots/ServiceNow_PhishingBuilder.png)
 
 ---
