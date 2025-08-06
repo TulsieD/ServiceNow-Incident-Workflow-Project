@@ -61,7 +61,7 @@ Created a dedicated `u_phishing_incident` table with fields:
 
 ![Business Rule Script](./scripts/auto_assign.js) 
  
-![Screenshot:](./screenshots/Buisness_Rule_for_Phishing_Incidents_.png)
+![Screenshot:](./screenshots/Buisness_Rule_for_Phishing_Incidents.png)
 
 
 ---
