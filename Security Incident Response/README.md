@@ -59,8 +59,10 @@ Created a dedicated `u_phishing_incident` table with fields:
 - Business Rule assigns phishing incidents to the **Phishing Response Team** based on priority.
 - High-severity phishing alerts are auto-routed to **Tier 2 analysts** for immediate triage.
 
-📄 **Business Rule Script:** `scripts/auto_assignment.js`  
-📷 **Screenshot:** `screenshots/auto_assignment.png`
+📄 **Business Rule Script:**
+![](./scripts/auto_assign.js)`  
+📷 **Screenshot:** 
+![](screenshots/auto_assignment.png)
 
 ---
 
@@ -74,7 +76,8 @@ Designed a custom workflow in Flow Designer for phishing incidents:
 
 - Notifications are triggered at each stage for visibility.
 
-📷 **Workflow Diagram:** `workflows/phishing_workflow.png`
+📷 **Workflow Diagram:** 
+![](./workflows/phishing_workflow.png)
 
 ---
 
@@ -91,6 +94,8 @@ Simulated ingestion from SIEM (e.g., Splunk/QRadar) into ServiceNow using REST A
   "u_user_reported": "Abel Tuter"
 }
 ```
+![](./screenshots/REST_API_POST_REQUEST.png)
+
 ### 5️⃣ Example Case Timeline  
 A simulated phishing incident lifecycle with full analyst notes.
 
