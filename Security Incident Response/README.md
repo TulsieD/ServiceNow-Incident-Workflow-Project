@@ -61,7 +61,7 @@ Created a dedicated `u_phishing_incident` table with fields:
 
 ![**Business Rule Script:**](./scripts/auto_assign.js) 
  
-![**Screenshot:**](screenshots/auto_assignment.png)
+![**Screenshot:**](screenshots/Buisness_Rule_for_Phishing_Incidents.png)
 
 
 ---
@@ -76,7 +76,7 @@ Designed a custom workflow in Flow Designer for phishing incidents:
 
 - Notifications are triggered at each stage for visibility.
 
-![**Workflow Diagram:** ](./workflows/phishing_workflow.png)
+![**Workflow Diagram:** ](./workflows/Phishing_Workflow.png)
 
 
 ---
