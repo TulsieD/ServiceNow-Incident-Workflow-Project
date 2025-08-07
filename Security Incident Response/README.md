@@ -10,7 +10,7 @@ This project showcases how ServiceNow can be customized to handle security incid
 - **Automated Assignment via Business Rules**  
 - **Incident Workflow with Notifications**  
 - **SIEM Integration (REST API)**  
-- **IOC Tracking and Enrichment**
+- **IOC Tracking**
 
 ---
 
@@ -103,7 +103,7 @@ A simulated resolved phishing incident with full analyst notes.
 ![Resoluiton Notes](./screenshots/PhishingIncidentexample2.png)
 ---
 
-### 7️⃣ Key Value  
+### 6️⃣ Key Value  
 ✅ Automated triage reduces manual effort  
 ✅ Seamless SIEM → ServiceNow integration  
 ✅ Clear audit trail for investigations  
