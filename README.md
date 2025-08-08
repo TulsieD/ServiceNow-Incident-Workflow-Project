@@ -21,7 +21,7 @@ It simulates how a security team can use ServiceNow to automate incident handlin
 | Workflows            | Flow Designer, Business Rules |
 | Data Import          | Import Sets (CSV)         |
 | Visualization        | Performance Analytics     |
-| Documentation        | Draw.io (Diagrams), Markdown |
+| Documentation        | Markdown |
 
 ---
 
@@ -30,7 +30,7 @@ It simulates how a security team can use ServiceNow to automate incident handlin
 /ServiceNow-SecOps-Demo
 │
 ├── README.md
-├── workflows/
+├── Security Incident Response/
 │   ├── incident_workflow.png
 │   ├── vulnerability_workflow.png
 │
@@ -56,11 +56,6 @@ Simulate incident ingestion and automated workflows for handling security alerts
 ### Steps Implemented
 1. **Mock SIEM Ingestion**
    - Created sample incidents (Phishing, Malware, Brute-force alerts).
-   - Phishing:
-         Created a custom table with phishing-specific fields to isolate incidents, which allows administrators to limit
-         Who has access to phishing alerts, e.g. level 2 analysts and above will have access to the incident in order to perform triage while
-         Level 1 analysts are excluded to help mitigate alert fatigue. Added custom numbering using the number maintenance definition to have a
-         'PHISH' prefix, further visually distinguishing the incidents. 
    - Added custom fields (Alert Source, IP Address, Severity).
    
 2. **Business Rules**
@@ -73,19 +68,17 @@ Simulate incident ingestion and automated workflows for handling security alerts
      - Notifications triggered at each stage.
 
 ### Deliverables
-- Workflow Diagram: `workflows/incident_workflow.png`
-- Screenshots: `screenshots/incident_creation.png`
 - Key Value: Automated triage reduces manual effort and accelerates response.
 
 ---
 
-## 🛡 2. [Vulnerability Response (VR)](./Vulnerability_Response/README.md)
+## 🛡 2. [Vulnerability Response (VR)](./Vulnerability%20Response/README.md)
 ### Objective
 Simulate vulnerability imports and automated remediation task assignment.
 
 ### Steps Implemented
 1. **Mock Vulnerability Import**
-   - Imported CSV (`data/mock_vulnerabilities.csv`) with vulnerabilities (CVSS, Asset, Description).
+   - Imported [CSV](./Vulnerability%20Response/data/mock_vulnerabilities.csv`) with vulnerabilities (CVSS, Asset, Description).
 
 2. **Asset Linking**
    - Created Configuration Items (CIs) in CMDB.
@@ -117,8 +110,8 @@ Visualize security data for actionable insights.
 ### Deliverables
 - Key Value: Enables data-driven decision-making for security teams.
 - Screenshots:
-![](./screenshots/VulnDashboard.png)
 ![](./screenshots/PhishingDashboard.png)
+![](./screenshots/VulnDashboard.png)
 
 ---
 
@@ -135,14 +128,6 @@ This demo shows how organizations can:
 - Simulate API-based SIEM integration
 - Add Threat Intelligence enrichment
 - Automate compliance checks with mock data
-
----
-
-## 📂 Project Deliverables
-- [Workflows](./workflows)
-- [Mock Data](./data)
-- [Screenshots](./screenshots)
-- [Business Value PDF](./docs/business_value.pdf)
 
 ---
 
