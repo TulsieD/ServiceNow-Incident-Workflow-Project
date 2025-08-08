@@ -49,7 +49,7 @@ It simulates how a security team can use ServiceNow to automate incident handlin
 
 ---
 
-## 🔐 1. [Security Incident Response (SIR)](./Security_Incident_Response/README.md)
+## 🔐 1. [Security Incident Response (SIR)](./Security%20Incident%20Response/README.md)
 ### Objective
 Simulate incident ingestion and automated workflows for handling security alerts.
 
