@@ -49,7 +49,7 @@ It simulates how a security team can use ServiceNow to automate incident handlin
 
 ---
 
-## 🔐 1. Security Incident Response (SIR)
+## 🔐 1. [Security Incident Response (SIR)](./Security_Incident_Response/README.md)
 ### Objective
 Simulate incident ingestion and automated workflows for handling security alerts.
 
@@ -79,7 +79,7 @@ Simulate incident ingestion and automated workflows for handling security alerts
 
 ---
 
-## 🛡 2. Vulnerability Response (VR)
+## 🛡 2. [Vulnerability Response (VR)](./Vulnerability_Response/README.md)
 ### Objective
 Simulate vulnerability imports and automated remediation task assignment.
 
@@ -96,8 +96,6 @@ Simulate vulnerability imports and automated remediation task assignment.
    - Tasks assigned to IT Operations group.
 
 ### Deliverables
-- Workflow Diagram: `workflows/vulnerability_workflow.png`
-- Screenshots: `screenshots/remediation_task.png`
 - Key Value: Provides clear vulnerability ownership and SLA-driven remediation.
 
 ---
@@ -117,8 +115,10 @@ Visualize security data for actionable insights.
   - Remediation progress (open vs. closed tasks)
 
 ### Deliverables
-- Screenshots: `screenshots/vulnerability_dashboard.png`
 - Key Value: Enables data-driven decision-making for security teams.
+- Screenshots:
+![](./screenshots/VulnDashboard.png)
+![](./screenshots/PhishingDashboard.png)
 
 ---
 
