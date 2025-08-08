@@ -27,25 +27,38 @@ It simulates how a security team can use ServiceNow to automate incident handlin
 
 ## 🚀 Project Structure
 ```plaintext
-/ServiceNow-SecOps-Demo
-│
+ServiceNow-Incident-Workflow-Project/
 ├── README.md
-├── Security Incident Response/
-│   ├── incident_workflow.png
-│   ├── vulnerability_workflow.png
-│
-├── data/
-│   ├── mock_vulnerabilities.csv
-│
 ├── screenshots/
-│   ├── incident_creation.png
-│   ├── vulnerability_dashboard.png
-│   ├── remediation_task.png
-│
-└── docs/
-    ├── business_value.pdf
-```
+│   ├── PhishingDashboard.png
+│   └── VulnDashboard.png
+├── Security Incident Response/
+│   ├── README.md
+│   ├── screenshots/
+│   │   ├── BuisnessRule.png
+│   │   ├── PhishingIncident.png
+│   │   ├── PhishingIncidentexample1.png
+│   │   ├── PhishingIncidentexample2.png
+│   │   ├── PhishingIncidentTable.png
+│   │   ├── PhishingWorkflow.png
+│   │   ├── REST API POST REQUEST.png
+│   │   └── Servicenow_PhishingBuilder.png
+│   └── scripts/
+│       └── auto_assign.js
+└── Vulnerability Response/
+    ├── data/
+    │   └── mock_vulnerabilities.csv
+    ├── README.md
+    └── screenshots/
+        ├── AutoNoTaskrem.png
+        ├── Autotaskcriticalvuln.png
+        ├── autovulnemail.png
+        ├── CIBuilder.png
+        ├── CreatedCI.png
+        ├── RemediationWorkflow.png
+        └── VulnResponseList.png
 
+```
 
 ---
 
